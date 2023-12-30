@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<div id="site-wrapper" ng-click="fnCloseMobileFlyOut()" style="box-sizing: border-box; width: 1782.4px; overflow: hidden; color: rgb(64, 64, 64); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 15px; position: static !important;">
+<div class="ng-scope" ng-controller="CommonHeaderCtrl" style="box-sizing: border-box;">
+<div ng-hide="cpr" style="box-sizing: border-box;">
+<div id="header-wrapper" style="box-sizing: border-box;">
+<section class="common-header alert- logged-out" data-ng-class="{true: 'logged-in', false: 'logged-out'}[CommonHeaderCtrl.currentLoggedInUser.hasSession]" id="common_header" style="box-sizing: border-box; z-index: 1004; position: relative;">
+<div id="desktop_header" style="box-sizing: border-box; min-width: 1000px;">
+<div class="sticky-wrapper" style="box-sizing: border-box; background-color: rgb(0, 40, 100); height: 105px;">
+<div class="global-header hidden-phone hidden-tablet sticky-stack-pseudo ng-scope is-sticky" id="desktop_header_NewCustomer" sticky-stack="" style="box-sizing: border-box; z-index: 1000; position: fixed; color: rgb(255, 255, 255); transform: translateZ(0px); width: 1782.4px; float: left; top: 0px; left: 0px; backface-visibility: hidden;">
+<div class="container" style="box-sizing: border-box; margin-right: auto; margin-left: auto; max-width: 1170px;">
+<div class="toggle-container" style="box-sizing: border-box;">
+<div class="row app-header__row-top clear-float" id="headerNotShown" style="box-sizing: border-box; margin-left: -15px; margin-right: -15px;">
+<div class="span4 ipad-width-4" style="box-sizing: border-box; float: left; min-height: 1px; padding-left: 15px; padding-right: 15px; width: 400px;">
+<div class="vpadding-s" style="box-sizing: border-box; padding-top: 1rem; padding-bottom: 1rem;">
+<div class="speech-bubble-home-wrapper" style="box-sizing: border-box; float: left; width: 370px;">
+<div class="motion-point" style="box-sizing: border-box; float: left; margin-top: 4px; font-family: Regular;"><a href="https://espanol.optimum.net/" mporgnav="" style="box-sizing: border-box; text-decoration-line: none; cursor: pointer; color: rgb(255, 255, 255);">En espa&ntilde;ol</a></div>
+
+<div class="pull-right speech-bubble-home-container" data-ng-show="!CommonHeaderCtrl.currentLoggedInUser.hasSession" style="box-sizing: border-box; float: right; padding-right: 45px; margin-bottom: -5px;">
+<div class="speech-balloon__content" style="box-sizing: border-box; border-radius: 0.333rem; padding: 0.5rem; line-height: 1rem; background-color: rgb(255, 255, 255);">
+<p class="username-msg ng-binding" style="box-sizing: border-box; margin: 0px; font-family: Regular;"><a class="welcome-message speech-balloon speech-balloon--tip-outwards header-user" data-ng-class="{active : CommonHeaderCtrl.currentUserStatus == 'signin'}" data-ng-mouseenter="CommonHeaderCtrl.currentUserStatus='signin'" data-ng-mouseleave="CommonHeaderCtrl.currentUserStatus=''" href="https://www.optimum.net/login" style="box-sizing: border-box; text-decoration-line: none; cursor: pointer; display: inline-block; font-size: 0.866667rem; line-height: 1.07692; position: relative; color: rgb(64, 64, 64);">Sign in with your Optimum ID</a></p>
+</div>
+
+<div class="speech-balloon__tip" style="box-sizing: border-box; margin-left: 0.5rem; height: 0px; position: absolute; left: 0px; bottom: 0px; right: 0px;">&nbsp;</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="app-header__secondary-nav span8 ipad-width-8" style="box-sizing: border-box; float: left; min-height: 1px; padding-left: 15px; padding-right: 15px; width: 800px;">
+<div class="row" style="box-sizing: border-box; margin-left: -15px; margin-right: -15px;">
+<div class="span12" style="box-sizing: border-box; float: left; min-height: 1px; padding-left: 15px; padding-right: 15px; width: 800px;">
+<div class="global-nav-secondary" style="box-sizing: border-box; float: right; width: 770px; display: flex; justify-content: flex-end; align-items: flex-end; text-align: right;">
+<div class="hbeam-inline global-nav-secondary__item" style="box-sizing: border-box; display: inline-table; transition: width 200ms ease 0s; height: 3rem; vertical-align: bottom;">
+<div class="global-nav-secondary__label" style="box-sizing: border-box; display: table-cell; vertical-align: bottom; font-family: Regular-Bold; font-size: 17px; padding: 0.5rem; line-height: 1rem;"><a class="block-link" data-ng-class="{active : CommonHeaderCtrl.isActiveMenu('profile')}" data-ng-click="CommonHeaderCtrl.handleMenuSelect('profile')" data-ng-mouseenter="CommonHeaderCtrl.handleMenuFocus('profile')" data-ng-mouseleave="CommonHeaderCtrl.handleMenuBlur('profile')" style="box-sizing: border-box; cursor: pointer; padding: 15px 6px 10px;"><span class="show-signin" style="box-sizing: border-box;">Sign in</span></a></div>
+</div>
+
+<div class="hbeam-inline global-nav-secondary__item" style="box-sizing: border-box; display: inline-table; transition: width 200ms ease 0s; height: 3rem; vertical-align: bottom; margin-left: 0.5rem; margin-right: 0.5px;">
+<div class="global-nav-secondary__label" style="box-sizing: border-box; display: table-cell; vertical-align: bottom; font-family: Regular-Bold; font-size: 17px; padding: 0.5rem; line-height: 1rem;"><a class="block-link" data-ng-class="{active : CommonHeaderCtrl.isActiveMenu('pay-bill')}" data-ng-click="CommonHeaderCtrl.handleMenuSelect('pay-bill')" data-ng-mouseenter="CommonHeaderCtrl.handleMenuFocus('pay-bill')" data-ng-mouseleave="CommonHeaderCtrl.handleMenuBlur('pay-bill')" style="box-sizing: border-box; cursor: pointer; padding: 15px 6px 10px;">Pay bill</a></div>
+</div>
+
+<div class="hbeam-inline global-nav-secondary__item" style="box-sizing: border-box; display: inline-table; transition: width 200ms ease 0s; height: 3rem; vertical-align: bottom; margin-left: 0.5rem; margin-right: 0.5px;">
+<div class="global-nav-secondary__label" style="box-sizing: border-box; display: table-cell; vertical-align: bottom; font-family: Regular-Bold; font-size: 17px; padding: 0.5rem; line-height: 1rem;"><a class="block-link" data-ng-class="{active : CommonHeaderCtrl.isActiveMenu('support')}" data-ng-click="CommonHeaderCtrl.handleMenuSelect('support')" data-ng-mouseenter="CommonHeaderCtrl.handleMenuFocus('support')" data-ng-mouseleave="CommonHeaderCtrl.handleMenuBlur('support')" style="box-sizing: border-box; cursor: pointer; padding: 15px 6px 10px;">Support</a>
+
+<div class="support-ddmenu" style="box-sizing: border-box; position: absolute;">&nbsp;</div>
+</div>
+</div>
+
+<div class="hbeam-inline global-nav-secondary__item" style="box-sizing: border-box; display: inline-table; transition: width 200ms ease 0s; height: 3rem; vertical-align: bottom; margin-left: 0.5rem; margin-right: 0.5px;">
+<div class="global-nav-secondary__label" style="box-sizing: border-box; display: table-cell; vertical-align: bottom; font-family: Regular-Bold; font-size: 17px; padding: 0.5rem 0px 0.5rem 0.5rem; line-height: 1rem;">
+<div class="yext-search component yxt-Answers-component yxt-SearchBar-wrapper" id="yext-search-4" style="box-sizing: border-box; -webkit-font-smoothing: antialiased; margin-bottom: 0px; font-family: Regular; height: 20px;">
+<div class="yxt-SearchBar" style="box-sizing: border-box; width: 240px; height: 1.7rem; margin-bottom: 0px;">
+<div class="yxt-SearchBar-container" style="box-sizing: border-box; position: relative; overflow: hidden; z-index: 1; border-radius: var(--yxt-searchbar-form-border-radius); border: 0px; background-color: var(--yxt-searchbar-form-background-color); width: 240px; min-width: 16rem;">
+<form class="yxt-SearchBar-form" style="box-sizing: border-box; margin: 0px; display: flex; width: 240px; height: 1.7rem;"><label class="sr-only" for="yxt-SearchBar-input--yext-search-4" id="yxt-SearchBar-inputLabel--yext-search-4" style="box-sizing: border-box; display: inline-block; vertical-align: middle; position: absolute; width: 0.0625rem; height: 0.0625rem; padding: 0px; margin: -0.0625rem; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); border: 0px;">Conduct a search</label><input aria-autocomplete="list" aria-controls="yxt-SearchBar-autocomplete--yext-search-4" aria-haspopup="listbox" aria-label="Conduct a search" autocomplete="off" autocorrect="off" class="js-yext-query yxt-SearchBar-input" id="yxt-SearchBar-input--yext-search-4" name="query" spellcheck="false" style="box-sizing: border-box; font-family: Regular; font-size: 15px; margin: 0px; line-height: 1.4; width: 209.212px; font-weight: var(--yxt-searchbar-text-font-weight); font-style: normal; color: rgba(64, 64, 64, 0.5); border-width: 0px; border-style: initial; border-color: initial; background-color: rgb(255, 255, 255); padding: 2px 20px; vertical-align: middle; border-radius: 0.33333em 0px 0px 0.33333em; appearance: none;" type="text" value="" /><button class="js-yext-submit yxt-SearchBar-button" style="font: inherit; margin: 0px; appearance: none; cursor: pointer; padding-left: 0.5rem; padding-right: 0.5rem; display: flex; flex-shrink: 0; -webkit-box-align: center; align-items: center; padding-top: calc(var(--yxt-base-spacing)/2); padding-bottom: calc(var(--yxt-base-spacing)/2); background-color: rgb(246, 102, 8); border-width: initial; border-style: none; border-color: initial;" type="submit"></button>
+
+<div class="yxt-SearchBar-AnimatedIcon yxt-SearchBar-AnimatedIcon--paused js-yxt-AnimatedForward component yxt-Answers-component" data-component="IconComponent" data-is-component-mounted="true" data-opts="{&quot;iconName&quot;:&quot;yext_animated_forward&quot;,&quot;classNames&quot;:&quot;Icon--lg&quot;,&quot;complexContentsParams&quot;:{&quot;iconPrefix&quot;:&quot;yext-search-4&quot;}}" style="box-sizing: border-box; -webkit-font-smoothing: antialiased; display: flex;">
+<div aria-hidden="true" class="Icon Icon--yext_animated_forward Icon--lg" style="box-sizing: border-box; display: inline-flex; -webkit-box-align: center; align-items: center; -webkit-box-pack: center; justify-content: center;">&nbsp;</div>
+</div>
+
+<div class="yxt-SearchBar-AnimatedIcon yxt-SearchBar-AnimatedIcon--paused js-yxt-AnimatedReverse yxt-SearchBar-AnimatedIcon--inactive component yxt-Answers-component" data-component="IconComponent" data-is-component-mounted="true" data-opts="{&quot;iconName&quot;:&quot;yext_animated_reverse&quot;,&quot;classNames&quot;:&quot;Icon--lg&quot;,&quot;complexContentsParams&quot;:{&quot;iconPrefix&quot;:&quot;yext-search-4&quot;}}" style="box-sizing: border-box; -webkit-font-smoothing: antialiased; display: flex;">&nbsp;</div>
+<button class="js-yext-submit yxt-SearchBar-button" style="font: inherit; margin: 0px; appearance: none; cursor: pointer; padding-left: 0.5rem; padding-right: 0.5rem; display: flex; flex-shrink: 0; -webkit-box-align: center; align-items: center; padding-top: calc(var(--yxt-base-spacing)/2); padding-bottom: calc(var(--yxt-base-spacing)/2); background-color: rgb(246, 102, 8); border-width: initial; border-style: none; border-color: initial;" type="submit"><span class="yxt-SearchBar-buttonText sr-only" style="box-sizing: border-box; position: absolute; width: 0.0625rem; height: 0.0625rem; padding: 0px; margin: -0.0625rem; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); border: 0px;">Submit</span></button></form>
+
+<div class="yxt-SearchBar-autocomplete component yxt-Answers-component" id="yxt-SearchBar-autocomplete--yext-search-4" style="box-sizing: border-box; -webkit-font-smoothing: antialiased; z-index: 1000;">
+<div aria-expanded="false" class="yxt-AutoComplete-wrapper js-yxt-AutoComplete-wrapper" style="box-sizing: border-box; background-color: var(--yxt-autocomplete-background-color); border-bottom-right-radius: 6px; border-bottom-left-radius: 6px;">&nbsp;</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="row" style="box-sizing: border-box; margin-left: -15px; margin-right: -15px;">
+<div class="span4" style="box-sizing: border-box; float: left; min-height: 1px; padding-left: 15px; padding-right: 15px; width: 400px;">
+<div class="global-header__brand" style="box-sizing: border-box; max-width: 19rem;">&nbsp;</div>
+</div>
+
+<div class="span8 app-header__nav-primary" id="mega-menu-container" style="box-sizing: border-box; float: left; min-height: 1px; padding-left: 15px; padding-right: 15px; width: 800px; margin-top: 3px;">
+<div class="hflow global-nav-primary" style="box-sizing: border-box; text-align: right; text-wrap: nowrap !important;">
+<div class="hflow global-nav-primary__item block-link" data-ng-class="{active : CommonHeaderCtrl.isActiveMenu('internet')}" data-ng-mouseenter="CommonHeaderCtrl.handleMenuFocus('internet')" data-ng-mouseleave="CommonHeaderCtrl.handleMenuBlur('internet')" style="box-sizing: border-box; display: inline-block; vertical-align: top; text-wrap: wrap; padding: 0px 10px 5px;">
+<div class="global-nav-primary__label" style="box-sizing: border-box; display: inline-block; vertical-align: middle; margin-right: 0.25rem; font-family: Regular-Bold; font-size: 17px; padding: 5px 0px;"><a class="global-header__link" data-ng-click="CommonHeaderCtrl.handleMenuSelect('internet')" style="box-sizing: border-box; cursor: pointer; font-size: 30px; font-family: Regular;">Internet</a>
+
+<div class="internet-menu" style="box-sizing: border-box; position: absolute;">&nbsp;</div>
+</div>
+&nbsp;
+
+<div class="global-nav-primary__notification" style="box-sizing: border-box; display: inline-block; vertical-align: middle !important;">
+<div class="hbeam-part-static badge-notification__icon-container logged-out-envelope-container" data-ng-class="{'logged-out-envelope-container' : !CommonHeaderCtrl.currentLoggedInUser.hasSession}" style="box-sizing: border-box; display: table-cell; vertical-align: top; width: 1px; padding-right: 0px;">&nbsp;</div>
+
+<div style="box-sizing: border-box; display: table-cell; vertical-align: top;">&nbsp;</div>
+</div>
+</div>
+
+<div class="hflow global-nav-primary__item block-link" data-ng-class="{active : CommonHeaderCtrl.isActiveMenu('tv')}" data-ng-mouseenter="CommonHeaderCtrl.handleMenuFocus('tv')" data-ng-mouseleave="CommonHeaderCtrl.handleMenuBlur('tv')" style="box-sizing: border-box; display: inline-block; vertical-align: top; text-wrap: wrap; margin-left: 0rem; padding: 0px 10px 5px;">
+<div class="global-nav-primary__label" style="box-sizing: border-box; display: inline-block; vertical-align: middle; margin-right: 0.25rem; font-family: Regular-Bold; font-size: 17px; padding: 5px 0px;"><a class="global-header__link" data-ng-class="{active : CommonHeaderCtrl.isActiveMenu('tv')}" data-ng-click="CommonHeaderCtrl.handleMenuSelect('tv')" style="box-sizing: border-box; cursor: pointer; font-size: 30px; font-family: Regular;">TV</a>
+
+<div class="tv-menu" ng-class="{'tv-dvr-menu': CommonHeaderCtrl.currentLoggedInUser.hasService.dvr}" style="box-sizing: border-box; position: absolute;">&nbsp;</div>
+</div>
+</div>
+
+<div class="hflow global-nav-primary__item block-link" data-ng-class="{active : CommonHeaderCtrl.isActiveMenu('phone')}" data-ng-mouseenter="CommonHeaderCtrl.handleMenuFocus('phone')" data-ng-mouseleave="CommonHeaderCtrl.handleMenuBlur('phone')" style="box-sizing: border-box; display: inline-block; vertical-align: top; text-wrap: wrap; margin-left: 0rem; padding: 0px 10px 5px;">
+<div class="global-nav-primary__label" style="box-sizing: border-box; display: inline-block; vertical-align: middle; margin-right: 0.25rem; font-family: Regular-Bold; font-size: 17px; padding: 5px 0px;"><a class="global-header__link" data-ng-click="CommonHeaderCtrl.handleMenuSelect('phone')" style="box-sizing: border-box; cursor: pointer; font-size: 30px; font-family: Regular;">Phone</a>
+
+<div class="phone-menu" ng-class="{'nophone-menu': (CommonHeaderCtrl.currentLoggedInUser.hasSession &amp;&amp; !CommonHeaderCtrl.currentLoggedInUser.hasService.phone)}" style="box-sizing: border-box; position: absolute;">
+<div data-ng-hide="CommonHeaderCtrl.currentLoggedInUser.hasSession" style="box-sizing: border-box;">&nbsp;</div>
+</div>
+</div>
+</div>
+
+<div class="hflow global-nav-primary__item block-link no--dropdown" data-ng-class="{active : CommonHeaderCtrl.isActiveMenu('my-offers')}" data-ng-mouseenter="CommonHeaderCtrl.handleMenuFocus('my-offers')" data-ng-mouseleave="CommonHeaderCtrl.handleMenuBlur('my-offers')" style="box-sizing: border-box; display: inline-block; vertical-align: top; border-bottom-right-radius: 6px; border-bottom-left-radius: 6px; text-wrap: wrap; margin-left: 0rem; padding: 0px 10px 5px;">
+<div class="global-nav-primary__label" style="box-sizing: border-box; display: inline-block; vertical-align: middle; margin-right: 0.25rem; font-family: Regular-Bold; font-size: 17px; padding: 5px 0px;"><a class="global-header__link" href="https://www.optimum.net/upgrades" omtr="trackme" style="box-sizing: border-box; text-decoration-line: none; cursor: pointer; color: rgb(255, 255, 255); font-size: 30px; font-family: Regular;" title="Upgrades Menu">My Offers</a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+
+<section class="login" style="box-sizing: border-box;">
+<div id="header" style="box-sizing: border-box; height: 6rem; background-color: rgb(224, 224, 224); color: rgb(0, 0, 0);">
+<div class="container" style="box-sizing: border-box; margin-right: auto; margin-left: auto; max-width: 1170px;">
+<div class="row" style="box-sizing: border-box; margin-left: -15px; margin-right: -15px;">
+<div class="span12" style="box-sizing: border-box; float: left; min-height: 1px; padding-left: 15px; padding-right: 15px; width: 1200px;">
+<h1 class="theme--primary" style="box-sizing: border-box; font-size: 3rem; margin: 0px; font-family: Regular; font-weight: 400; line-height: 6rem; text-rendering: optimizelegibility; padding: 0px;">Optimum Sign In</h1>
+</div>
+</div>
+</div>
+</div>
+
+<div class="login-page" style="box-sizing: border-box; background: rgb(242, 242, 242); padding: 40px 0px;">
+<div class="container" style="box-sizing: border-box; margin-right: auto; margin-left: auto; max-width: 1170px;">
+<div class="row" style="box-sizing: border-box; margin-left: -15px; margin-right: -15px;">&nbsp;</div>
+
+<div class="row" style="box-sizing: border-box; margin-left: -15px; margin-right: -15px;">&nbsp;</div>
+
+<div class="row" style="box-sizing: border-box; margin-left: -15px; margin-right: -15px;">
+<div class="login-container" style="box-sizing: border-box; background: rgb(245, 245, 245); overflow: hidden; border-radius: 6px; border: 1px solid rgb(217, 217, 217);">
+<div class="span8" style="box-sizing: border-box; float: left; min-height: 1px; padding-left: 15px; padding-right: 15px; width: 798.925px;">
+<form class="ng-valid ng-dirty" method="post" style="box-sizing: border-box; margin: 0px;">
+<div id="login-box" style="box-sizing: border-box; padding: 1.9rem 1rem 1rem; border-radius: 0px; border-right: 1px solid rgb(217, 217, 217); background-color: rgb(255, 255, 255); margin-left: -1rem;">
+<div class="container" ng-hide="redirectProcessing" style="box-sizing: border-box; margin-right: auto; margin-left: auto; max-width: 1170px;">
+<div class="row" ng-hide="isCpc" style="box-sizing: border-box; margin-left: -15px; margin-right: -15px;">
+<div class="span12" style="box-sizing: border-box; float: left; min-height: 1px; padding-left: 15px; padding-right: 15px; width: 783.125px;">
+<h2 class="login-title" style="box-sizing: border-box; font-family: Regular; font-weight: 400; line-height: 1.02941; text-rendering: optimizelegibility; margin: 0px 0px 20px; color: rgb(0, 132, 214); font-size: 2.68rem;">&nbsp;</h2>
+</div>
+</div>
+
+<div class="row" style="box-sizing: border-box; margin-left: -15px; margin-right: -15px;">
+<div class="span5" style="box-sizing: border-box; float: left; min-height: 1px; padding-left: 15px; padding-right: 15px; width: 326.3px;"><label class="label" style="box-sizing: border-box; display: inline-block; vertical-align: middle; font-size: 18px; font-weight: 700; margin: 0px; width: 296.3px;">My Optimum ID</label></div>
+
+<div class="span7" style="box-sizing: border-box; float: left; min-height: 1px; padding-left: 15px; padding-right: 15px; width: 456.812px;">&nbsp;</div>
+</div>
+
+<div class="row" style="box-sizing: border-box; margin-left: -15px; margin-right: -15px;">
+<div class="span5" style="box-sizing: border-box; float: left; min-height: 1px; padding-left: 15px; padding-right: 15px; width: 326.3px;"><input autocapitalize="off" autocomplete="username" autocorrect="off" class="input input--highlight input-wrap loginid ng-pristine ng-valid" id="loginPageUsername" ng-disabled="model.reauth" ng-focus="!passwordResetSucc" ng-model="model.id" style="box-sizing: border-box; font-family: inherit; font-size: 1rem; margin: 0px; line-height: 1.4; width: 296.3px; background-color: rgb(242, 242, 242); border-width: 1px; border-style: solid; border-color: rgb(140, 140, 140); padding: 0.4em 0.6em; vertical-align: middle; border-radius: 0.33333em; color: rgba(64, 64, 64, 0.5); max-width: 300px !important;" tabindex="7" type="text" /></div>
+
+<div class="span7 forgot" style="box-sizing: border-box; float: left; min-height: 1px; padding-left: 15px; padding-right: 15px; width: 456.812px; color: rgb(0, 132, 214); margin-top: 6px;" tabindex="10"><a href="https://www.optimum.net/recover-id/" style="box-sizing: border-box; cursor: pointer; color: rgb(0, 132, 214);">I forgot my Optimum ID</a></div>
+</div>
+
+<div class="row" style="box-sizing: border-box; margin-left: -15px; margin-right: -15px;">
+<div class="span12 height10" style="box-sizing: border-box; float: left; min-height: 1px; padding-left: 15px; padding-right: 15px; width: 783.125px; height: 1rem;">&nbsp;</div>
+</div>
+
+<div class="row" style="box-sizing: border-box; margin-left: -15px; margin-right: -15px;">
+<div class="span5" style="box-sizing: border-box; float: left; min-height: 1px; padding-left: 15px; padding-right: 15px; width: 326.3px;"><label class="label" style="box-sizing: border-box; display: inline-block; vertical-align: middle; font-size: 18px; font-weight: 700; margin: 0px; width: 296.3px;">Password</label></div>
+
+<div class="span7" style="box-sizing: border-box; float: left; min-height: 1px; padding-left: 15px; padding-right: 15px; width: 456.812px;">&nbsp;</div>
+</div>
+
+<div class="row" style="box-sizing: border-box; margin-left: -15px; margin-right: -15px;">
+<div class="span5" style="box-sizing: border-box; float: left; min-height: 1px; padding-left: 15px; padding-right: 15px; width: 326.3px;"><input autocapitalize="off" autocomplete="current-password" autocorrect="off" class="input input-highlight input-wrap loginpass ng-pristine ng-valid" id="loginPagePassword" ng-focus="passwordResetSucc" ng-model="model.password" style="box-sizing: border-box; font-family: inherit; font-size: 1rem; margin: 0px; line-height: 1.4; width: 296.3px; border-width: 1px; border-style: solid; border-color: rgb(140, 140, 140); padding: 0.4em 0.6em; vertical-align: middle; border-radius: 0.33333em; background-color: rgb(242, 242, 242); color: rgba(64, 64, 64, 0.5); max-width: 300px !important;" tabindex="8" type="password" /></div>
+
+<div class="span7 forgot" style="box-sizing: border-box; float: left; min-height: 1px; padding-left: 15px; padding-right: 15px; width: 456.812px; color: rgb(0, 132, 214); margin-top: 6px;"><a href="https://www.optimum.net/reset-password/" style="box-sizing: border-box; cursor: pointer; color: rgb(0, 132, 214);" tabindex="11">I forgot my password</a></div>
+</div>
+
+<div class="row" style="box-sizing: border-box; margin-left: -15px; margin-right: -15px;">
+<div class="span12 height10" style="box-sizing: border-box; float: left; min-height: 1px; padding-left: 15px; padding-right: 15px; width: 783.125px; height: 1rem;">&nbsp;</div>
+</div>
+
+<div class="row" style="box-sizing: border-box; margin-left: -15px; margin-right: -15px;">
+<div class="span12" style="box-sizing: border-box; float: left; min-height: 1px; padding-left: 15px; padding-right: 15px; width: 783.125px;">
+<hr style="box-sizing: content-box; height: 0px; border-top: 0px; width: 753.125px; margin-bottom: 1rem; border-bottom-style: solid; border-bottom-color: rgb(217, 217, 217);" /></div>
+</div>
+
+<div class="row" style="box-sizing: border-box; margin-left: -15px; margin-right: -15px;">
+<div class="span12 hidden-phone" style="box-sizing: border-box; float: left; min-height: 1px; padding-left: 15px; padding-right: 15px; width: 783.125px;"><button class="btn btn--primary" id="target" ng-click="submit()" ng-disabled="isLoginInprogress" ng-hide="isCpc" style="font-family: Regular-Bold; font-size: 15px; margin: 0px 25px 0px 0px; line-height: 1.4; appearance: button; cursor: pointer; user-select: none; padding: 0.5rem 1rem; vertical-align: middle; border-radius: 0.33333em; border-width: 0px; border-style: initial; border-color: initial; background-color: rgb(246, 102, 8); color: rgb(255, 255, 255); font-weight: 400;" tabindex="9">Sign in to Optimum.net</button>&nbsp;
+
+<div class="checkbox login-checkbox checkbox--secondary ng-valid  not-checked ng-dirty" ng-class="{
+  'is-checked': checkbox.isChecked,
+  'not-checked': !checkbox.isChecked,
+  'is-checked-partial': checkbox.isPartial
+  }" ng-click="checkbox.onCheck()" ng-disabled="disableRememberMe" ng-hide="isCpc" ng-model="model.remember" style="box-sizing: border-box; user-select: none; width: 1.5em; height: 1.5em; border-radius: 0.25rem; cursor: pointer; background-color: rgb(242, 242, 242); vertical-align: middle; font-family: FontAwesome; display: inline-table; color: rgb(242, 242, 242); border: 1px solid rgb(140, 140, 140);" tabindex="12" type="checkbox">
+<div class="checkbox-inner" style="box-sizing: border-box; display: table-cell; vertical-align: middle; text-align: center;">&nbsp;</div>
+</div>
+&nbsp;
+
+<div class="logged-in" ng-hide="isCpc" style="box-sizing: border-box; display: inline; position: relative;">Remember Me</div>
+</div>
+</div>
+</div>
+</div>
+</form>
+</div>
+
+<div class="span4" ng-hide="isCpc || passwordResetSucc" style="box-sizing: border-box; float: left; min-height: 1px; padding-left: 15px; padding-right: 15px; width: 399.462px;">
+<div id="create-id" ng-hide="model.reauth" style="box-sizing: border-box; padding: 2.5rem 2rem 1rem 0px; margin-left: -10px;">
+<h3 style="box-sizing: border-box; font-family: Regular; font-weight: 400; line-height: 1.05; text-rendering: optimizelegibility; margin: 0px 0px 1rem; font-size: 1.7rem;">Don&#39;t have an Optimum ID?</h3>
+
+<p style="box-sizing: border-box; margin: 0px 0px 1rem; font-size: 1.1rem;">An Optimum ID is a unique username that provides access to extra services and benefits.</p>
+
+<ul style="box-sizing: border-box; padding: 0px; margin: 0px;">
+	<li style="box-sizing: border-box; line-height: 1.4; margin: 0px 0px 0.5rem; list-style: none;">
+	<div class="cta-dot" style="box-sizing: border-box; float: left; min-width: 26px;"><span class="primary cta-arrow-link" cta-arrow-link="" href="/profile/create-optimum-id/" style="box-sizing: border-box; font-size: 1.1rem; line-height: 2; vertical-align: middle; color: rgb(0, 132, 214); float: left; padding-top: 1.7375px; padding-bottom: 1.7375px;"><a class="font-cta-link" href="https://www.optimum.net/profile/create-optimum-id/" style="box-sizing: border-box; text-decoration-line: none; cursor: pointer; line-height: 1.5; vertical-align: middle; font-family: Regular-Bold; font-size: 17px; font-weight: 700; float: left;"><span class="cta-wrap" style="box-sizing: border-box; float: right; line-height: 1.4em;"><span ng-transclude="" style="box-sizing: border-box; line-height: 1.4em;">Create an Optimum ID</span>&nbsp;</span></a></span></div>
+	</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="common-footer-help ng-scope" data-ng-controller="CommonFooterCtrl" id="is-not-cpc-common-footer-help" ng-hide="cpr" style="box-sizing: border-box; padding-top: 30px; background-color: rgb(0, 40, 100); clear: both;">
+<div class="container" style="box-sizing: border-box; margin-right: auto; margin-left: auto; max-width: 1170px;">
+<div class="row" style="box-sizing: border-box; margin-left: -15px; margin-right: -15px;">
+<ul id="contact-list" style="box-sizing: border-box; padding: 0px; margin: 0px; list-style-type: none; position: relative; z-index: 50;">
+	<li class="span4" style="box-sizing: border-box; line-height: 3rem; float: left; min-height: 1px; padding-left: 15px; padding-right: 15px; width: 400px; color: rgb(255, 255, 255); height: 3rem;"><a class="no-left" href="https://www.optimum.com/stores" style="box-sizing: border-box; text-decoration-line: none; cursor: pointer; margin-left: 0px; display: block; border: 0px; height: 3rem; line-height: 3rem;"><span class="txt" style="box-sizing: border-box; display: inline-block; height: 3rem; color: rgb(255, 255, 255); vertical-align: top; padding: 2px 0px 0px; line-height: 3rem; font-family: Regular-Bold; font-size: 20px;">Optimum Stores</span></a></li>
+	<li class="span4 second-last" ng-class="{true: 'second-last'}[isDeviceWidth.phone == false]" style="box-sizing: border-box; line-height: 3rem; float: left; min-height: 1px; padding-left: 96px; padding-right: 15px; width: 400px; color: rgb(255, 255, 255); height: 3rem;"><a class="no-left" href="https://twitter.com/messages/compose?recipient_id=705534415" style="box-sizing: border-box; text-decoration-line: none; cursor: pointer; margin-left: 0px; display: block; border: 0px; height: 3rem; line-height: 3rem;"><span class="txt" style="box-sizing: border-box; display: inline-block; height: 3rem; color: rgb(255, 255, 255); vertical-align: top; padding: 2px 0px 0px; line-height: 3rem; font-family: Regular-Bold; font-size: 20px;">@OptimumHelp</span></a></li>
+	<li class="span4" style="box-sizing: border-box; line-height: 3rem; float: left; min-height: 1px; padding-left: 15px; padding-right: 15px; width: 400px; color: rgb(255, 255, 255); height: 3rem;">
+	<div class="LPMcontainer LPMoverlay" id="LPMcontainer-1679424975987-0" style="box-sizing: border-box; margin: 1px; padding: 0px; border-style: solid; border-width: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; list-style: outside none none; line-height: normal; vertical-align: baseline; word-spacing: normal; background-repeat: repeat-x; background-position: left bottom; cursor: auto; position: relative; top: 0px; left: 0px;"><a class="no-left" href="https://www.optimum.net/contactus" style="box-sizing: border-box; text-decoration-line: none; cursor: pointer; margin-left: 0px; display: block; border: 0px; height: 3rem; line-height: 3rem;"><span class="txt help-last" ng-class="{true: 'help-last'}[isDeviceWidth.phone == false]" style="box-sizing: border-box; float: right; display: inline-block; height: 3rem; color: rgb(255, 255, 255); vertical-align: top; padding: 2px 0px 0px; line-height: 3rem; font-family: Regular-Bold; font-size: 20px;">Contact Us</span></a></div>
+	</li>
+</ul>
+</div>
+</div>
+</section>
+
+<section class="common-footer-links ng-scope" data-ng-controller="CommonFooterCtrl" ng-hide="cpr" style="box-sizing: border-box; background-color: rgb(0, 40, 100); padding: 0px 0px 50px;">
+<div class="container minHeightFooter" style="box-sizing: border-box; margin-right: auto; margin-left: auto; max-width: 1170px; min-height: 100px !important;">
+<div class="row" style="box-sizing: border-box; margin-left: -15px; margin-right: -15px;">
+<div class="span12" id="is-not-cpc-hr" style="box-sizing: border-box; float: left; min-height: 1px; padding-left: 15px; padding-right: 15px; width: 1200px;">
+<hr style="box-sizing: content-box; height: 0px; border-top: 0px; border-right: 0px; border-left: 0px; opacity: 0.4; width: 1170px; clear: both; float: left; border-image: initial; border-bottom-style: solid; border-bottom-color: rgb(255, 255, 255); margin-top: 23.4px;" /></div>
+
+<div class="span9" id="is-not-cpc-footer-site-links" ng-show="!showForNewCustomer" style="box-sizing: border-box; float: left; min-height: 1px; padding-left: 15px; padding-right: 15px; width: 900px;">
+<div class="hidden-phone" style="box-sizing: border-box;">
+<ul class="footer-site-links" style="box-sizing: border-box; padding: 0px; margin: 0px; font-size: 1rem; height: 1.5rem; clear: both;">
+	<li style="box-sizing: border-box; line-height: 2rem; display: inline-block; font-family: Regular-Medium; float: left; font-size: 13px; text-align: left; color: rgb(255, 255, 255); margin-right: 14px;"><a href="https://www.optimum.net/pages/ReportAbuse.html" style="box-sizing: border-box; text-decoration-line: none; cursor: pointer; color: rgb(255, 255, 255);">Report Abuse</a><span class="footer-link-seperator" style="box-sizing: border-box; margin-left: 14px; opacity: 0.3;">|</span></li>
+	<li style="box-sizing: border-box; line-height: 2rem; display: inline-block; font-family: Regular-Medium; float: left; font-size: 13px; text-align: left; color: rgb(255, 255, 255); margin-right: 14px;"><a href="https://www.optimum.com/accessibility" style="box-sizing: border-box; text-decoration-line: none; cursor: pointer; color: rgb(255, 255, 255);">Accessibility</a>&nbsp;<span class="footer-link-seperator" style="box-sizing: border-box; margin-left: 14px; opacity: 0.3;">|</span></li>
+	<li style="box-sizing: border-box; line-height: 2rem; display: inline-block; font-family: Regular-Medium; float: left; font-size: 13px; text-align: left; color: rgb(255, 255, 255); margin-right: 14px;"><a href="https://www.optimum.net/pages/storm-preparedness.html" style="box-sizing: border-box; text-decoration-line: none; cursor: pointer; color: rgb(255, 255, 255);">Storm Preparedness</a>&nbsp;<span class="footer-link-seperator" style="box-sizing: border-box; margin-left: 14px; opacity: 0.3;">|</span></li>
+	<li style="box-sizing: border-box; line-height: 2rem; display: inline-block; font-family: Regular-Medium; float: left; font-size: 13px; text-align: left; color: rgb(255, 255, 255); margin-right: 0px;"><a href="https://www.optimum.com/terms-of-service/Legal-Compliance" style="box-sizing: border-box; text-decoration-line: none; cursor: pointer; color: rgb(255, 255, 255);" target="_blank">Legal Compliance</a></li>
+</ul>
+
+<ul class="footer-site-links" style="box-sizing: border-box; padding: 0px; margin: 0px; font-size: 1rem; height: 1.5rem; clear: both;">
+	<li style="box-sizing: border-box; line-height: 2rem; display: inline-block; font-family: Regular-Medium; float: left; font-size: 13px; text-align: left; color: rgb(255, 255, 255); margin-right: 14px;"><a href="https://www.optimum.com/terms-of-service" style="box-sizing: border-box; text-decoration-line: none; cursor: pointer; color: rgb(255, 255, 255);">Service Terms &amp; Info</a>&nbsp;<span class="footer-link-seperator" style="box-sizing: border-box; margin-left: 14px; opacity: 0.3;">|</span></li>
+	<li style="box-sizing: border-box; line-height: 2rem; display: inline-block; font-family: Regular-Medium; float: left; font-size: 13px; text-align: left; color: rgb(255, 255, 255); margin-right: 14px;"><a href="https://www.optimum.com/terms-of-service/Copyright-Policy" style="box-sizing: border-box; text-decoration-line: none; cursor: pointer; color: rgb(255, 255, 255);" target="_blank">Copyright Policy</a>&nbsp;<span class="footer-link-seperator" style="box-sizing: border-box; margin-left: 14px; opacity: 0.3;">|</span></li>
+	<li style="box-sizing: border-box; line-height: 2rem; display: inline-block; font-family: Regular-Medium; float: left; font-size: 13px; text-align: left; color: rgb(255, 255, 255); margin-right: 14px;"><a href="https://www.optimum.com/terms-of-service/privacy/Customer-Privacy" style="box-sizing: border-box; text-decoration-line: none; cursor: pointer; color: rgb(255, 255, 255);" target="_blank">Privacy Notice</a>&nbsp;<span class="footer-link-seperator" style="box-sizing: border-box; margin-left: 14px; opacity: 0.3;">|</span></li>
+	<li style="box-sizing: border-box; line-height: 2rem; display: inline-block; font-family: Regular-Medium; float: left; font-size: 13px; text-align: left; color: rgb(255, 255, 255); margin-right: 0px;"><a href="https://alticeusa.com/" style="box-sizing: border-box; text-decoration-line: none; cursor: pointer; color: rgb(255, 255, 255);" target="_blank">About Altice USA</a></li>
+</ul>
+</div>
+</div>
+
+<div class="span3 hidden-phone" id="is-not-cpc-footer-social-icon-phone" style="box-sizing: border-box; float: left; min-height: 1px; padding-left: 15px; padding-right: 15px; width: 300px;">
+<ul class="fltright" style="box-sizing: border-box; padding: 0px; margin: 0px; float: right; font-size: 1rem; height: 1.5rem; clear: both;">
+	<li class="footer-social-icon" style="box-sizing: border-box; line-height: 3rem; display: inline-block; font-family: Regular-Medium; float: left; font-size: 13px; text-align: left; color: rgb(255, 255, 255); margin-top: 8px; margin-right: 10px;">&nbsp;</li>
+	<li class="footer-social-icon" style="box-sizing: border-box; line-height: 3rem; display: inline-block; font-family: Regular-Medium; float: left; font-size: 13px; text-align: left; color: rgb(255, 255, 255); margin-top: 8px; margin-right: 10px;">&nbsp;</li>
+	<li class="footer-social-icon" style="box-sizing: border-box; line-height: 3rem; display: inline-block; font-family: Regular-Medium; float: left; font-size: 13px; text-align: left; color: rgb(255, 255, 255); margin-top: 8px; margin-right: 10px;">&nbsp;</li>
+	<li class="footer-social-icon" style="box-sizing: border-box; line-height: 3rem; display: inline-block; font-family: Regular-Medium; float: left; font-size: 13px; text-align: left; color: rgb(255, 255, 255); margin-top: 8px; margin-right: 0px;">&nbsp;</li>
+</ul>
+</div>
+</div>
+
+<div class="row" id="is-not-cpc-icon-logo" ng-show="!showForNewCustomer" style="box-sizing: border-box; margin-left: -15px; margin-right: -15px;">
+<div class="span10 partner-icons" style="box-sizing: border-box; float: left; min-height: 1px; padding-left: 15px; padding-right: 15px; width: 1000px;">
+<ul class="hidden-phone" style="box-sizing: border-box; padding: 0px; margin: 0px; font-size: 1rem; height: 1.5rem; clear: both;">
+	<li class="wide hidden-phone ng-binding" style="box-sizing: border-box; line-height: 3rem; display: inline-block; font-family: Regular-Medium; float: left; font-size: 12px; text-align: left; color: rgb(255, 255, 255); margin: 12px 23px 0px 0px;">&copy; Copyright 2023&nbsp;CSC Holdings, LLC.</li>
+</ul>
+</div>
+</div>
+
+<div style="box-sizing: border-box; clear: both;">&nbsp;</div>
+</div>
+</section>
+</div>
+
+<div ng-hide="cpr" style="box-sizing: border-box; color: rgb(64, 64, 64); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 15px;">&nbsp;</div>
+
+<p><button aria-controls="asapp-chat-sdk-iframe" class="optimumfixed asappChatSDKBadge asappChatSDKBadge_closed asappChatSDKBadge_right asappChatSDKBadge_tray" data-target="asapp-chat-sdk-badge" id="asapp-chat-sdk-badge" style="font-family: inherit; font-size: 15px; margin: 0px; appearance: button; cursor: pointer; background-color: rgb(39, 96, 240); border-width: 0px; border-style: initial; border-color: initial; box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 30px; color: rgb(255, 255, 255); display: flex; outline: none; overflow: visible; position: fixed; user-select: none; z-index: 130; right: 30px; border-radius: 10px 10px 0px 0px; bottom: 0px; height: 50px; padding: 15px 20px; width: auto;" title="Open chat" type="button"><svg aria-hidden="true" class="icon icon_badgeInactive" height="48" viewbox="0 0 48 48" width="48" xmlns="http://www.w3.org/2000/svg"><g><path d="M43 5v16h-7v4l-4-3-1.33-1H18V5h25zm1-5H17a4 4 0 0 0-4 4v18a4 4 0 0 0 4 4h12l12 9v-9h3a4 4 0 0 0 4-4V4a4 4 0 0 0-4-4z"></path><path d="M22 36h-8.46l-1.23.78L9 38.89V36H5V21h5v-5H4a4 4 0 0 0-4 4v17a4 4 0 0 0 4 4v7l11-7h8a4 4 0 0 0 4-4v-8h-5v7z"></path></g></svg><span class="asappChatSDKBadge__text" style="box-sizing: border-box; margin-left: 15px; max-width: 200px; transition: max-width 260ms ease 0s, opacity 260ms ease 0s, margin 260ms ease 0s; overflow: hidden; text-overflow: ellipsis; text-wrap: nowrap;">Chat with us</span></button></p>
+
+<div aria-label="asapp-chat-sdk-frame-el" class="asappChatSDKIFrame asappChatSDKIFrame_closed asappChatSDKIFrame_right asappChatSDKIFrame_tray asappChatSDKIFrame_closedFinished" data-target="asapp-chat-sdk-iframe" id="asapp-chat-sdk-iframe" style="box-sizing: border-box; backface-visibility: hidden; inset: auto 30px 0px auto; height: 0px; opacity: 0; overflow: hidden; position: fixed; touch-action: manipulation; transition: bottom 280ms cubic-bezier(0.445, 0.05, 0.55, 0.95) 0s; width: 375px; z-index: 1010; border-radius: 16px; box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 12px 0px, rgba(0, 0, 0, 0.25) 0px 2px 49px 0px; max-height: 0px; animation: 280ms cubic-bezier(0.445, 0.05, 0.55, 0.95) 0s 1 normal none running animate-slideOut; color: rgb(64, 64, 64); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 15px;"><iframe class="asappChatSDKFrameEl" frameborder="0" id="asapp-chat-sdk-frame-el" src="https://sdk.asapp.com/chat-sdk-iframe.html?APIHostname=optimumfixed.asapp.com&amp;CompanyMarker=optimumfixed&amp;Origin=https%3A%2F%2Fwww.optimum.net%2Flogin%2F&amp;RegionCode=US&amp;Language=en" style="box-sizing: border-box; border-width: 0px; border-style: initial; inset: 0px; height: 0px; margin: 0px; padding: 0px; position: absolute; width: 375px;" title="Chat Window"></iframe></div>
+</body>
+</html>
